@@ -3,7 +3,7 @@ import { StyleSheet, Text, View, TextInput, TouchableOpacity } from 'react-nativ
 
 class App extends Component{
   state = {
-    password: string,
+    password: 'string',
     isPasswordVisible: Boolean,
     toggleText: String,
   }
@@ -11,7 +11,7 @@ class App extends Component{
   constructor(props = Props) {
     super(props);
     this.state = {
-      password:'',
+      password:'lsfmasmcas',
       isPasswordVisible: true,
       toggleText: 'Show',
     };
